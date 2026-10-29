@@ -1,6 +1,10 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png.png'
 import './navbar.css'
+import { FaMessage } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa"
 
 
 
@@ -39,16 +43,16 @@ const Navbar = () => {
                 </div>
                 <div className="nav_actions">
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-message"></i>
+                        <FaMessage />
                     </a>
                     <a href="#" className="nav_actions_item">
-                       <i className="fa-solid fa-location-arrow"></i>
+                     <FaLocationArrow />
                     </a>
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-heart"></i>
+                    <FaHeart />
                     </a>
                     <a href="#" className="nav_actions_item">
-                        <i className="fa-solid fa-plus"></i>
+                        <FaPlus />
                     </a>
                 </div>
         </div>
