@@ -1,5 +1,8 @@
 import React from 'react'
 import './destination.css'
+import destinationImg from '../../assets/images/destination video.png'
+import { FaPlay } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 const destination = () => {
   return (
@@ -14,9 +17,9 @@ const destination = () => {
                         laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div className="destination_video">
-                    <img src="./images/destination video.png"/>
+                    <img src="destinationImg" alt="img"/>
                     <a href="#" className="destination_video_icon">
-                        <i className="fa-solid fa-play"></i>
+                       <FaPlay />
                     </a>
                 </div>
             </div>
@@ -25,11 +28,11 @@ const destination = () => {
                     <div className="location">
                         <h4>TRAVEL LOCATION</h4>
                         <div className="star_wrapper">
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
-                            <i className="fa-solid fa-star"></i>
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
                         </div>
                     </div>
                     <div className="price">
