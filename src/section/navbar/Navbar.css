@@ -35,7 +35,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
 }
-.nav_actions_item i{
+.nav_actions_item svg{
 color: #036E8A;
 font-size: 10px;
 }
