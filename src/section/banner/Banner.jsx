@@ -1,9 +1,12 @@
 import React from 'react'
 import './banner.css'
+import bannerImg from '../../assets/images/banner.jpg.jpg'
+import { IoSearchSharp } from "react-icons/io5";
+import { LuMapPin } from "react-icons/lu";
 
 const Banner = () => {
   return (
-    <section id="banner">
+    <section id="banner" style={{backgroundImage: `url(${bannerImg})`}}>
     <div className="container">
         <div className="banner_wrapper">
             <h1> CHOOSE <br/>THE PERFECT <br/>DESTINATIONS.</h1>
@@ -14,10 +17,11 @@ const Banner = () => {
                 <div className="form_inner">
             <div className="banner_search">
                 <input type="text" placeholder="Enter Your Location"/>
-                <i className="fa-solid fa-magnifying-glass"></i>
+                <IoSearchSharp />
             </div>
             <div className="map_circle">
-                <img src="./svg/map.svg"/>
+                <LuMapPin />
+                {/* <img src="./svg/map.svg"/> */}
             </div>
             </div>
             </form>

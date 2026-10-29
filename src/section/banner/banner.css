@@ -54,7 +54,7 @@
 .banner_search input::placeholder{
     color: #036E8A;
 }
-.banner_search i{
+.banner_search svg{
 color: #036E8A;
 position: absolute;
 top: 50%;
@@ -73,7 +73,7 @@ font-size: 24px;
     justify-content: center;
     
 }
-.map_circle i{
+.map_circle svg{
     color: #FFFFFF;
     font-size: 30px;
 }
