@@ -50,7 +50,7 @@ const PackageSection = () => {
   return (
     <section id="Package">
       <div className="package_shape">
-        <img src="./images/packageshape.png" alt="package shape" />
+        <img src="" alt="package shape" />
       </div>
 
       <div className="container">

@@ -85,10 +85,10 @@ text-transform: uppercase;
     align-items: center;
     margin-top: 14px;
 }
-.star_wrapper svg{
+.star_wrapper i{
     color: #FF8000;
 }
-.star_wrapper svg:last-child{
+.star_wrapper i:last-child{
     opacity: 0.5;
 }
 .location_price .price .peragraph{
