@@ -1,6 +1,6 @@
 import React from 'react'
 import './destination.css'
-import destinationImg from '../../assets/images/destination video.png'
+
 import { FaPlay } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
@@ -17,7 +17,7 @@ const destination = () => {
                         laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div className="destination_video">
-                    <img src="destinationImg" alt="img"/>
+                  
                     <a href="#" className="destination_video_icon">
                        <FaPlay />
                     </a>
