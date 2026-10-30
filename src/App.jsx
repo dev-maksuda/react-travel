@@ -7,6 +7,8 @@ import Destination2 from './section/destination2/Destination2.jsx'
 import Counter from './section/counter/Counter.jsx'
 import Newsletter from '../section/newsletter/Newsletter.jsx'
 import Brand from '../section/brand/Brand.jsx'
+import Message from './section/message/Message.jsx'
+import Footer from './section/footer/Footer.jsx'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Counter/>
       <Newsletter/>
       <Brand/>
+      <Message/>
+      <Footer/>
     </>
   )
 }
