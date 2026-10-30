@@ -3,7 +3,7 @@ import Banner from './section/banner/Banner.jsx'
 import Destination from './section/destination/Destination.jsx'
 import Package from './section/package/Package.jsx'
 import Destination2 from './section/destination2/Destination2.jsx'
-// import Gallery from './section/gallery/Gallery.jsx'
+import Gallery from './section/gallery/Gallery.jsx'
 import Counter from './section/counter/Counter.jsx'
 import Newsletter from '../section/newsletter/Newsletter.jsx'
 import Brand from '../section/brand/Brand.jsx'
@@ -18,7 +18,7 @@ function App() {
       <Destination/>
       <Package/>
       <Destination2/>
-      {/* <Gallery/> */}
+      <Gallery/>
       <Counter/>
       <Newsletter/>
       <Brand/>
