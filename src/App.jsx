@@ -5,6 +5,7 @@ import Package from './section/package/Package.jsx'
 import Destination2 from './section/destination2/Destination2.jsx'
 // import Gallery from './section/gallery/Gallery.jsx'
 import Counter from './section/counter/Counter.jsx'
+import Newsletter from './section/newsletter/Newsletter.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Destination2/>
       {/* <Gallery/> */}
       <Counter/>
+      <Newsletter/>
     </>
   )
 }
