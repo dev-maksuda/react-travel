@@ -6,7 +6,7 @@ import brand3 from "../.."
 import brand4 from "../.."
 import Image from '../../'
 
-const brand = () => {
+const Brand = () => {
   return (
     <section id="brand">
       <div className="container">
@@ -29,4 +29,4 @@ const brand = () => {
   )
 }
 
-export default brand
+export default Brand
