@@ -5,8 +5,6 @@ import newsletterGalSmall from '../'
 import newsletterGalLg from '../'
 import newsletterBox from '../'
 
-
-
 const Newsletter = () => {
   return (
     <section id="newsletter">
