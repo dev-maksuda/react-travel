@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { FaHeartBroken } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 
-const footer = () => {
+const Footer = () => {
   return (
       <footer>
       <div class="container">
@@ -117,4 +117,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
