@@ -11,7 +11,7 @@ import galImg6 from '../../images/gallery6.jpg';
 import galShapeImg from '../../images/galleryshape.png';
 
 
-const gallery = () => {
+const Gallery = () => {
   return (
     <section id="gallery">
       <div className="container">
@@ -83,4 +83,4 @@ const gallery = () => {
   );
 };
 
-export default gallery;
+export default Gallery;
