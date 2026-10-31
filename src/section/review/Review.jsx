@@ -11,7 +11,7 @@ import customer5 from "../..g"
 import customer6 from './'
 import { FaStar } from './'
 
-const review = () => {
+const Review = () => {
   return (
     <section id="review">
       <div className="review_shape">
@@ -146,4 +146,4 @@ const review = () => {
   )
 }
 
-export default review
+export default Review
