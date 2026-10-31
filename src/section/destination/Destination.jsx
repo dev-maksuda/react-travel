@@ -4,7 +4,7 @@ import './destination.css'
 import { FaPlay } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
-const destination = () => {
+const Destination = () => {
   return (
      <section id="destination">
         <div className="container">
@@ -47,4 +47,4 @@ const destination = () => {
   )
 }
 
-export default destination
+export default Destination
