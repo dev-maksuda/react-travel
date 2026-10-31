@@ -1,7 +1,7 @@
 import React from 'react'
 import './destination2.css'
 
-const destination2 = () => {
+const Destination2 = () => {
   return (
      <section id="destination2">
       <div class="container">
@@ -30,4 +30,4 @@ const destination2 = () => {
   )
 }
 
-export default destination2
+export default Destination2
