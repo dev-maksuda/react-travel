@@ -10,7 +10,6 @@ import galImg5 from '../../images/gallery5.jpg';
 import galImg6 from '../../images/gallery6.jpg';
 import galShapeImg from '../../images/galleryshape.png';
 
-
 const Gallery = () => {
   return (
     <section id="gallery">
