@@ -4,7 +4,7 @@ import messageShape from "../../assets/images/message_shape.png"
 import Image from '../../components/Image'
 import Paragraph from '../../components/Paragraph'
 
-const message = () => {
+const Message = () => {
   return (
     <section id="message">
       <div className="container">
@@ -25,4 +25,4 @@ const message = () => {
   )
 }
 
-export default message
+export default Message
