@@ -1,7 +1,7 @@
 import React from 'react'
 import './counter.css'
 
-const counter = () => {
+const Counter = () => {
   return (
   <section id="counter" style={{backgroundImage:`url(${counter})`}}>
       <div className="container">
@@ -28,4 +28,4 @@ const counter = () => {
   )
 }
 
-export default counter
+export default Counter
